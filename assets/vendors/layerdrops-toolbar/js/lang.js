@@ -38,20 +38,20 @@ $(".language-feature button").on("click", function (e) {
   let thmLogo = "images/nav-logo.png";
   let dLogo = "images/logo-dark.png";
   let fLogo = "images/nav-logo.png";
-  let favicon = "images/favicon.png";
+  let  = "images/.png";
   let error404 = "images/icons/404-image.png";
 
   $("#thm-logo").attr("src", thmLogo);
   $("#dLogo").attr("src", dLogo);
   $("#fLogo").attr("src", fLogo);
   $("#error-404").attr("src", error404);
-  $("#fav-shortcut").attr("href", favicon);
-  $("#fav-icon").attr("href", favicon);
+  $("#fav-shortcut").attr("href", );
+  $("#fav-icon").attr("href", );
 
   Cookies.remove("logo-img");
   Cookies.remove("d-logo");
   Cookies.remove("logo-img-footer");
-  Cookies.remove("favicon");
+  Cookies.remove("");
   Cookies.remove("error-404");
 
   Cookies.set("logo-img", thmLogo, {
@@ -66,7 +66,7 @@ $(".language-feature button").on("click", function (e) {
     expires: 365,
     path: "/"
   });
-  Cookies.set("favicon", favicon, {
+  Cookies.set("", , {
     expires: 365,
     path: "/"
   });
